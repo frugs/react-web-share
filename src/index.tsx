@@ -6,8 +6,11 @@ import iconList from "./components/icon/list";
 import Portal from "./components/portal";
 import SocialIcons from "./components/social-icons";
 import useDisclosure from "./hooks/use-disclosure";
+import Icon from "./components/icon";
 
 const defaultSites = Object.keys(iconList).slice(0, 8);
+
+export { Icon };
 
 export const RWebShare = ({
   children,
